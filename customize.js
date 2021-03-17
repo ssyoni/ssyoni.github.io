@@ -4,11 +4,11 @@
 const config = {
   /* Site
   ========================================= */
-  title: `💻 ssyoni's Timeline`,          // Displayed in header
+  title: `💻 ssyoni's timeline`,          // Displayed in header
   description: `🏖 Welcom to my place`,     // Site description
   maxWidth: "768px",                  // Max width of website
   enableAbout: true,                  // Enables about page
-  siteUrl: `https://yourDomain.com/`, // For sitemap & RSS feed
+  siteUrl: `https://ssyoni.github.io/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
 
   /* Profile
