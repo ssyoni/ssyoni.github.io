@@ -140,7 +140,9 @@ F(k, arr, s, e){
 
 ---
 
-* 참고 사이트 
+<center>references</center> 
   
-1. [<자료구조 알고리즘> 빅오(Big-O)표기법 완전정복](https://www.youtube.com/watch?v=6Iq5iMCVsXA&list=PLjSkJdbr_gFYSUYfnF_OGXtnGs2d3vWg7)
-2. https://velog.io/@raram2/big-o-notation-and-time-complexity
+<br/>
+
+- [<자료구조 알고리즘> 빅오(Big-O)표기법 완전정복](https://www.youtube.com/watch?v=6Iq5iMCVsXA&list=PLjSkJdbr_gFYSUYfnF_OGXtnGs2d3vWg7)
+- https://velog.io/@raram2/big-o-notation-and-time-complexity
