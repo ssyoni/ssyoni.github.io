@@ -15,6 +15,25 @@ excerpt: 알고리즘, 재귀
 - 기본단계(base case) : 함수가 자기 자신을 호출하지 않는 경우, 즉 무한 반복으로 빠져들지 않게 하는 부분
 - 재귀단계(recursive case): 함수가 자기 자신을 호출하는 부분 
 
+<br/>
+
+재귀함수가 호출될 때 자기 자신을 재 호출하는 것이 아니라, 함수가 호출되면 원본 함수의 복사본이 만들어져서 실행되는 구조이다. 
+
+![재귀함수호출원리](./../images/recursive-cycle.png)
+출처:https://zelord.tistory.com/13
+
+<br/>
+<br/>
+
+위의 그림은 재귀함수의 탈출 조건이 정의되어있지 않아서 무한 반복에 빠지게 된다. 
+기본단계(base case)가 추가된 재귀함수의 사이클은 다음과 같은 형태로 실행된다. 
+
+![재귀함수반환원리](./../images/recursive-cycle2.png)
+출처: 윤성우의 열혈 자료구조 도서 참조
+
+
+
+
 
 <br/>
 <br/>
@@ -48,7 +67,7 @@ public static int factorial(int n) {
 <br/>
 
 
-이러한 재귀함수는 메모리를 많이 차지한다는 단점이 있다.  
+이러한 재귀함수는 위에서 설명했듯이 복사본을 만들어 스택에 쌓기 때문에 메모리를 많이 차지한다는 단점이 있다.  
 함수 호출을 할 때마다 메모리를 사용하게 되고, 스택 메모리게 커지게 되면 스택 오버플로우가 발생할 수 있다.
 
 ***스택오버플로우란?*** : 스택이 할당된 공간보다 많은 공간을 차지할때 발생하는 프로그래밍 오류
@@ -80,11 +99,12 @@ public static int factorial(int n, int acc) {
 <br/>
 
 ---
-<center>references</center> 
+references
 
 <br/>
 
 - 그림으로 개념을 이해하는 알고리즘 by아디트야 바르가바 (한빛미디어 출판)
 - https://lygggg.github.io/blog/recursive/
 - https://developer.mozilla.org/ko/docs/Glossary/Call_stack
+- 윤성우의 열혈자료구조 - 오렌지미지어 출판
 
