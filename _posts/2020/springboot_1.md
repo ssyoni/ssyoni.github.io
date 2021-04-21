@@ -59,12 +59,12 @@ excerpt: 스프링부트 입문하기
 > 
 <br/>
 
-1. spring-boot : 스프링부트에서 기분 제공하는 의존성 
-2. spring-boot-autoconfigure : 자동 환경 구성에 필요한 의존성 
-3. spring-boot-starter-logging : 각종 로그를 사용하는데 필요한 의존성 
-4. javax.annotations-api : 소프트웨어 결함을 탐지하는 어노테이션 지원
-5. spring-core : 스프링 코어 사용 
-6. snakeyaml : yaml을 사용하는데 필요한 의존성 
+1. ```spring-boot``` : 스프링부트에서 기분 제공하는 의존성 
+2. ```spring-boot-autoconfigure``` : 자동 환경 구성에 필요한 의존성 
+3. ```spring-boot-starter-logging``` : 각종 로그를 사용하는데 필요한 의존성 
+4. ```javax.annotations-api```: 소프트웨어 결함을 탐지하는 어노테이션 지원
+5. ```spring-core``` : 스프링 코어 사용 
+6. ```snakeyaml``` : yaml을 사용하는데 필요한 의존성 
 
 <br/>
 <br/>
