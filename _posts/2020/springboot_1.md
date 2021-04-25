@@ -1,5 +1,5 @@
 ---
-title: 스프링부트 시작하기
+title: [SpringBoot]스프링부트 시작하기
 date: 2021-04-21
 tags: [Springboot]
 excerpt: 스프링부트 입문하기 
