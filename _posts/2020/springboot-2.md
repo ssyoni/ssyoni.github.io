@@ -1,5 +1,5 @@
 ---
-title: [SpringBoot]프로파일에 따른 환경 구성 분리하기 
+title: (SpringBoot) 프로파일에 따른 환경 구성 분리하기 
 date: 2021-04-25
 tags: [Springboot]
 excerpt: yaml 

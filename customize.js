@@ -15,7 +15,7 @@ const config = {
   ========================================= */
   author: `ssyoni`,                             // Name shows on profile
   profileDescription: " (∩^o^)⊃━☆゜.* • · ✨✨",   // Shows under author name
-  profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
+  profileImageName: `profile.png`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
 
