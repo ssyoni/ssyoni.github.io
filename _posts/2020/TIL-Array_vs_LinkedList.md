@@ -1,7 +1,7 @@
 ---
 title: 배열과 링크드리스트 차이점 (Array vs Linked List)
 date: 2021-03-24
-tags: [TIL, Algorithm]
+tags: [Algorithm]
 excerpt: 배열과 연결리스트의 차이점
 --- 
 

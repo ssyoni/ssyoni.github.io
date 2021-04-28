@@ -1,7 +1,7 @@
 ---
 title: Docker 로 mariaDb 실행하고 접속하기 
 date: 2021-04-06
-tags: [docker]
+tags: [Docker]
 excerpt: docker로 mariaDB를 설치해보자
 ---
 

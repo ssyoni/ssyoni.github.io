@@ -1,7 +1,7 @@
 ---
 title: Gatsby로 Github블로그 만들기 
 date: 2021-03-17
-tags: [TIL, GIT]
+tags: [GIT]
 excerpt: 깃은 너무 어려워
 ---
 
