@@ -92,12 +92,12 @@ module.exports = {
       },
     },
 
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: config.gaTrackingId,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: config.gaTrackingId,
+    //   },
+    // },
 
     {
       resolve: `gatsby-transformer-remark`,
