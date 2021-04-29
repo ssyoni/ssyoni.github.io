@@ -6,7 +6,7 @@ const config = {
   ========================================= */
   title: `💻 ssyoni's timeline`,          // Displayed in header
   description: `🏖 Welcom to my place`,     // Site description
-  maxWidth: "768px",                  // Max width of website
+  maxWidth: "700px",                  // Max width of website
   enableAbout: true,                  // Enables about page
   siteUrl: `https://ssyoni.github.io/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
