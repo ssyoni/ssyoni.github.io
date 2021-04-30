@@ -6,7 +6,7 @@ const config = {
   ========================================= */
   title: `💻 ssyoni's timeline`,          // Displayed in header
   description: `🏖 Welcom to my place`,     // Site description
-  maxWidth: "700px",                  // Max width of website
+  maxWidth:'900px',                  // Max width of website
   enableAbout: true,                  // Enables about page
   siteUrl: `https://ssyoni.github.io/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
@@ -14,7 +14,7 @@ const config = {
   /* Profile
   ========================================= */
   author: `ssyoni`,                             // Name shows on profile
-  profileDescription: " (∩^o^)⊃━☆゜.* • · ✨✨",   // Shows under author name
+  profileDescription: "Keep It Simple, Stupid",   // Shows under author name
   profileImageName: `profile.png`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
@@ -47,7 +47,7 @@ const config = {
 
   /* More Custom Settings
   ========================================= */
-  defaultTheme: "dark",                      // Options: dark / light -- applied to first visitors
+  defaultTheme: "light",                      // Options: dark / light -- applied to first visitors
   showTimeToRead: false,                      // Shows time to read for each post in main page
   breakCodeLines: false,                      // Breaks long code lines instead of having horizontal scroll
   faviconSrc: `_assets/icon-code.png`,        // Favicon
