@@ -8,8 +8,23 @@ excerpt: 스프링 기초
 
 <br/>
 <br/>
-<br/>
 
+- [DI (Dependency Injection)](#-🚀-DI-(Dependency-Injection))
+- [IoC (Inversion of Control)](#-🚀-IoC-(Inversion-of-Control))
+    - [Spring 의존성 주입 방법 3가지](##-🔌-Spring-의존성-주입-방법-3가지)
+        - [setter주입](###-✏️-**setter-주입** )
+        - [생성자 주입](###-✏️-**생성자-주입**)
+        - [필드 주입](###-✏️-**필드-주입**)
+- [SOLID](#-🚀-SOLID)
+    - [SRP(Single Responsibility Principle) 단일 책임의 원칙](##-SRP(Single-Responsibility-Principle)-단일-책임의-원칙)
+    - [OCP(Open/Clodes Principle) 개방 폐쇄 원칙 ](##-OCP(Open/Clodes-Principle)-개방-폐쇄-원칙)
+    - [LSP(Liskov Substitution Principle) 리스코프 치환 원칙 ](##-LSP(Liskov-Substitution-Principle)-리스코프-치환-원칙)
+    - [ISP(Interface Segregation Principle) 인터페이스 분리 원칙 ](##-ISP(Interface-Segregation-Principle)-인터페이스-분리-원칙)
+    - [DIP(Dependency Inversion Principle) 의존관계 역전 원칙](##-DIP(Dependency-Inversion-Principle)-의존관계-역전-원칙)
+
+<br/>
+<br/>
+<br/>
 
 # 🚀 DI (Dependency Injection)
 
@@ -52,7 +67,7 @@ A라는 크래스에서 B라는 클래스를 필요로 할 때 A는 B의 의존�
 <br/>
 
 
-## 🔌  Spring 의존성 주입 방법 3가지 
+## 🔌 Spring 의존성 주입 방법 3가지 
 
 <br/>
 
@@ -66,7 +81,7 @@ A라는 크래스에서 B라는 클래스를 필요로 할 때 A는 B의 의존�
 
 먼저 DI의 의존성 주입은 ```Setter 주입```, ```생성자 주입``` 두가지가 있다. 
 
-### ✏️  **setter 주입** 
+### ✏️ **setter 주입** 
 
 
 ```java
