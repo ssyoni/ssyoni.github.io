@@ -15,6 +15,15 @@ module.exports = {
     `gatsby-remark-emoji`, // Emoji list: https://emojipedia.org/joypixels/
     rss,
 
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `UA-192420704-1`, // 측정 ID
+        head: false, // head에 tracking script를 넣고 싶다면 true로 변경 
+        anonymize: true,
+      },
+    },
+
     // Read markdown/mdx files
     {
       resolve: "gatsby-source-filesystem",
@@ -97,6 +106,7 @@ module.exports = {
     //   options: {
     //     trackingId: config.gaTrackingId,
     //   },
+
     // },
 
     {
