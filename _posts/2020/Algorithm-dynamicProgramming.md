@@ -2,7 +2,7 @@
 title: 재귀 알고리즘과 호출스택
 date: 2021-03-25
 tags: [Algorithm]
-excerpt: 알고리즘, 재귀
+excerpt: 
 ---
 <br/>
 <br/>

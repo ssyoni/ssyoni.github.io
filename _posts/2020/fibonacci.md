@@ -2,7 +2,7 @@
 title: 피보나치수열(Fibbonacci Sequence)
 date: 2021-03-28
 tags: [Algorithm]
-excerpt: 알고리즘, 재귀
+excerpt: 
 ---
 
 <br/>

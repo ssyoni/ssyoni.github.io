@@ -2,7 +2,7 @@
 title: (Spring) Singleton, Prototype
 date: 2021-06-17
 tags: [Spring]
-excerpt: Spring scope
+excerpt: 
 ---
 
 <br/>

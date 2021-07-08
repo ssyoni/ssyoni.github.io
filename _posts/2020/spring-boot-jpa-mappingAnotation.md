@@ -2,7 +2,7 @@
 title: (SpringBoot) JPA 매핑 어노테이션 - @Entity, @Table, @Column, @Id
 date: 2021-06-15
 tags: [Spring]
-excerpt: Spring scope
+excerpt: 
 ---
 
 <br/>

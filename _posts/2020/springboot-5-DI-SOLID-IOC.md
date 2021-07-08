@@ -2,7 +2,7 @@
 title: (Spring) DI, IoC, SOLID
 date: 2021-05-21
 tags: [Spring]
-excerpt: 스프링 기초
+excerpt: 
 ---
 
 

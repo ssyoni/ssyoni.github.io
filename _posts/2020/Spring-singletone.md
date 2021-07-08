@@ -2,7 +2,7 @@
 title: (Spring) 스프링이 빈 스코프를 싱클톤으로 만드는 이유
 date: 2021-06-16
 tags: [Spring]
-excerpt: Spring scope
+excerpt: 
 ---
 
 <br/>

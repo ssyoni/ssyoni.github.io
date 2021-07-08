@@ -2,7 +2,7 @@
 title: 리스트(List) 자료구조 
 date: 2021-03-31
 tags: [Algorithm]
-excerpt: 리스트 자료구조 
+excerpt: 
 ---
 
 <br/>

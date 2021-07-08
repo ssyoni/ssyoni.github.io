@@ -2,7 +2,7 @@
 title: (SpringBoot) CommandLineRunner 
 date: 2021-05-26
 tags: [SpringBoot]
-excerpt: 스프링부트에서 제공하는 초기화 인터페이스
+excerpt: 
 ---
 
 <br/>

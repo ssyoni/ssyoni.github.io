@@ -2,7 +2,7 @@
 title: (Spring) 빈 등록방법, 의존관계 자동주입, lombok
 date: 2021-05-30
 tags: [Spring]
-excerpt: ComponentScan, Autowired, Lombok ...
+excerpt: 
 ---
 
 <br/>

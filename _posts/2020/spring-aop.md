@@ -2,7 +2,7 @@
 title: AOP(Aspected-Oriented Programming)
 date: 2021-07-08
 tags: [spring]
-excerpt: 스프링 aop
+excerpt: 
 ---
 
 <br/>

@@ -2,7 +2,7 @@
 title: (Spring) Bean 생명주기
 date: 2021-06-13
 tags: [Spring]
-excerpt: 스프링 빈 라이프사이클 
+excerpt: 
 ---
 
 <br/>

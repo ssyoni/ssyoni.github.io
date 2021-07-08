@@ -2,7 +2,7 @@
 title: 추상자료형(Abstract Data Type)
 date: 2021-03-29
 tags: [Algorithm]
-excerpt: 자료구조와 추상자료형
+excerpt: 
 ---
 
 <br/>

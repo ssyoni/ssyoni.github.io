@@ -2,7 +2,7 @@
 title: (SpringBoot) VsCode에서 스프링부트 lombok 추가하기
 date: 2021-04-29
 tags: [SpringBoot]
-excerpt: lombok
+excerpt: 
 ---
 
 

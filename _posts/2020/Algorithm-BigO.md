@@ -2,7 +2,7 @@
 title: 빅오(Big-O) 표기법 간단하게 알아보기 
 date: 2021-03-21
 tags: [Algorithm]
-excerpt: 알고리즘, 자료구조
+excerpt: 
 ---
 
 <br/>

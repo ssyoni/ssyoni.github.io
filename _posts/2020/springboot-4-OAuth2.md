@@ -2,7 +2,7 @@
 title: (SpringBoot) 스프링부트 시큐리티(OAuth2)
 date: 2021-05-09
 tags: [SpringBoot]
-excerpt: 스프링 시큐리티
+excerpt: 
 ---
 
 
