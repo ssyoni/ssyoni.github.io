@@ -9,7 +9,7 @@ excerpt: 스프링 aop
 <br/>
 <br/>
 
-# AOP(Aspected-Oriented Programming)
+# 🌿 AOP(Aspected-Oriented Programming)
 
 - 스프링과 별개로 방법론임
 - OOP는 사용자 관점에서의 주 업무 로직을 위주로 구현하는 것. 반면 AOP 는 주 업무 로직을 구현함에 있어서 개발자나 운영자 및 관리자가 필요에 따라서 코드를 끼워넣게 되는 부가적인 기능(ex. 로그처리, 트렌젝션 등...)을 모듈화하는 것.
@@ -24,6 +24,7 @@ excerpt: 스프링 aop
 - primary(Core) Concern : 핵심 로직
 - Cross-cutting Concern : 핵심로직을 위 아래로 감싸고 있는 부가적인 공통 로직
 
+<br/>
 <br/>
 
 ### AOP 구현 방식
@@ -42,7 +43,7 @@ excerpt: 스프링 aop
 1) 프록시란? 기존 코드에 영향을 주지 않고 타깃의 기능을 확장하고 접근방법을 제어하는 방법
 
 2) 프록시의 역할
-
+   
 - 타겟으로 요청을 위임
 - 부가기능을 수행
 - 프록시팩토리에게 인터페이스 정보를 제공해주면 해당 인터페이스를 구현한 클래스의 오브젝트를 자동으로 만들어준다
@@ -189,13 +190,12 @@ excerpt: 스프링 aop
     }
     ```
 
-    <br/>
-    <br/>
-    <br/>
+ <br/>
+<br/>
 
-    *출력*
+ *출력*
 
-    ![spring-aop3](./images/../../images/spring-aop3.png)
+![spring-aop3](./images/../../images/spring-aop4.png)
 
     1. Exam인터페이스 제공 
     2. 프록시팩토리에게 나이내픽 프록시 만들어달라고 요청 
@@ -206,7 +206,7 @@ excerpt: 스프링 aop
 <br/>
 <br/>
 
-## Sprnig AOP
+## 🌿 Spring AOP
 
 스프링은 프록시 기반의 AOP 기능을 제공한다. 런타임 시점에 타겟 클래스에 대한 부가기능을 실행해줄 프록시 빈을 생성해준다. (자동 프록시 생성기)
 
@@ -215,8 +215,7 @@ excerpt: 스프링 aop
 - Aspect : 공통코드를 모듈화 한 것
 - Target : Aspect 가 적용되는 곳
 - Advice : 순수하게 부가기능만 실제로 구현된 부분. 부가기능 구현체
-    - Advice 종류
-
+  
         - Before
         - After returnning
         - After throwing : 예외가 발생된 후 동작
@@ -224,6 +223,20 @@ excerpt: 스프링 aop
 
 - Joint point :  Advice 가 Target에 적용되는 시점
 - Point cut :  Joint point 의 상세스펙을 정의한 것
-    - pointcut 종류
+  
+        - execution(@execution)	: 메소드를 기준으로 Pointcut을 설정
+        - within(@within) : 특정한 타입(클래스)을 기준으로 Pointcut을 설정
+        - this : 주어진 인터페이스를 구현한 객체를 대상으로 Pointcut을 설정
+        - args(@args) : 특정한 파라미터를 가지는 대상들만을 PointCut으로 설정
+        - @annotation : 특정한 어노테이션이 적용된 대상들만을 Pointcut으로 설정
 
-        [pointcut 종류 ](https://www.notion.so/2c54cf5f785c47ac922ca4e64f3bb6f5)
+<br/>
+<br/>
+<br/>
+
+---
+***참조***
+
+- 유튜브 newlecture 스프링 강의
+- 토비의 스프링
+
