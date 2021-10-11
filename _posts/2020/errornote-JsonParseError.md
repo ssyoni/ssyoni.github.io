@@ -1,5 +1,5 @@
 ---
-title: JsonParse Error - JsonCreater
+title: JsonParse Error - @JsonCreater
 date: 2021-07-18
 tags: [Today's 삽질]
 excerpt: JsonCreater annotation
