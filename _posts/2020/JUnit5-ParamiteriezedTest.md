@@ -2,7 +2,7 @@
 title: JUnit5 - @ParameterizedTest, @ValueSource, @CsvSource
 date: 2021-10-11
 tags: [Junit]
-excerpt: CleanCode by 로버트 C. 마틴
+excerpt: Junit5 annotation
 ---
 
 <br/>
